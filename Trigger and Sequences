@@ -1,0 +1,45 @@
+
+-- Trigger to subtract the Availaible seats after an N number of passengers has been reserved--
+
+create or replace TRIGGER Flight_Remaining_seats 
+AFTER INSERT on reservation
+FOR EACH ROW   
+/*Every time a passanger signs up for a reservation in the reservation table and give number of passangers being reserved, 
+The trigger subtracts the remaining_Seats(flight table) from the number of passangers being reserved(reservation)*/
+
+
+Begin
+   update flight
+   set remaining_seats = remaining_seats - :New.num_of_passengers
+   where flight_num = :New.flight_num;
+END;
+
+
+____________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________
+
+
+ -- Sequence to auto Generate Passenger ID ---
+ 
+   CREATE SEQUENCE  PASSENGERID_SEQ
+   MINVALUE 1 MAXVALUE 9999999999999999999999999999
+   INCREMENT BY 1 
+   START WITH 176 
+   CACHE 20
+   NOORDER  
+   NOCYCLE ;
+   
+____________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________
+
+
+-- Sequence to auto Generate Reservation Number ---
+
+EATE SEQUENCE RESERVATIONNUM_SEQ  
+MINVALUE 1 MAXVALUE 9999999999999999999999999999
+INCREMENT BY 1
+START WITH 62922 
+CACHE 20 
+NOORDER
+NOCYCLE ;
+ 
