@@ -53,7 +53,9 @@ LOOP
     --looping the cursor into the variables and printing the outcome-- 
     FETCH c1 INTO v_flightnum, v_airlines, v_origin, v_destination,  v_flight_date,v_seats,  v_fare;
     exit when c1%NOTFOUND ;
-    dbms_output.put_line( 'Flight Number: ' || v_flightnum ||' |  Airlines: ' ||v_airlines || '| '|| v_origin || ' to ' || v_destination || ' | ' || v_flight_date || ' |  Seats Remaining: '|| v_seats || ' | Price: '|| v_fare);
+    dbms_output.put_line( 'Flight Number: ' || v_flightnum ||' |  Airlines: ' ||v_airlines 
+                         || '| '|| v_origin || ' to ' || v_destination || ' | ' || v_flight_date ||
+                         ' |  Seats Remaining: '|| v_seats || ' | Price: '|| v_fare);
 END LOOP;    
 close c1;
 
@@ -112,7 +114,8 @@ LOOP
     fetch c1 into v_res_num, v_flight_num, v_passengerID, v_res_date, v_num__of_pass;
     exit when c1%NOTFOUND OR c1%NOTFOUND IS NULL;
     DBMS_OUTPUT.PUT_LINE('Reservation Number: ' ||v_res_num || ' | Flight Number: ' ||v_flight_num 
-    || ' | Your Passenger ID: ' ||v_passengerID || ' | Date of Reservation: ' ||v_res_date || ' | Number of passengers: ' ||v_num__of_pass);
+    || ' | Your Passenger ID: ' ||v_passengerID || ' | Date of Reservation: ' 
+                         ||v_res_date || ' | Number of passengers: ' ||v_num__of_pass);
 end loop;
 close c1;
 end;
