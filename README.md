@@ -1,4 +1,4 @@
-# Airlines-Reservation-System(SQL - PL/SQL)
+# Airlines-Reservation- System(SQL - PL/SQL)
 Concept of an airlines reservation system where the user and the admin can perform real world fucntions
 
 * The project consists of 4 tables(Flight,Reservation, Passenger,Payment) with 9 PL/SQL procedures 2 sequences and 1 Trigger. 
@@ -15,7 +15,7 @@ Concept of an airlines reservation system where the user and the admin can perfo
 
 ![image](https://user-images.githubusercontent.com/52587103/60775994-a6a8f380-a0f6-11e9-8fd0-2794e94db96c.png)
 
-### User Procedure #1 – Registering a Passenger
+### User Procedure #1– Registering a Passenger(refer to '4_passenger_procedures.sql' for code)
 
 ![image](https://user-images.githubusercontent.com/52587103/60775999-ac9ed480-a0f6-11e9-809e-c9814aa838a4.png)
 
@@ -23,7 +23,7 @@ Concept of an airlines reservation system where the user and the admin can perfo
 
 ![image](https://user-images.githubusercontent.com/52587103/60776006-b1fc1f00-a0f6-11e9-8640-0a6f887e44d9.png)
 
-### Admin procedure #3 – Searching for the reservations for a particular flight using FLIGHT_ID (refer to "5 Admin Procedures" file for the code)
+### Admin procedure #3– Searching for the reservations for a particular flight using FLIGHT_ID (refer to '5_Admin_Procedures.sql' file for code)
 
 ![image](https://user-images.githubusercontent.com/52587103/60776007-b45e7900-a0f6-11e9-98ce-f666f28a20c6.png)
 
