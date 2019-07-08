@@ -1,4 +1,4 @@
-# Airlines-Reservation-System(SQL)
+# Airlines-Reservation-System(SQL - PL/SQL)
 Concept of an airlines reservation system where the user and the admin can perform real world fucntions
 
 * The project consists of 4 tables(Flight,Reservation, Passenger,Payment) with 9 PL/SQL procedures 2 sequences and 1 Trigger. 
