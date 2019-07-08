@@ -7,3 +7,5 @@ Concept of an airlines reservation system where the user and the admin can perfo
 * If the the passenger registers for more than the number of avaialable seats then it give an error(check constraint on Remaining_seats to remain > 0)
 * Sequences to auto generate Reservation_ID and Passenger_ID for the Passenger
 * Reservation table acts as a bridge table for Fight and Passenger
+
+## Heading 1
