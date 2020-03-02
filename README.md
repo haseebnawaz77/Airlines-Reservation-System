@@ -8,7 +8,7 @@ Concept of an airlines reservation system where the user and the admin can perfo
 * Sequences to auto generate Reservation_ID and Passenger_ID for the Passenger
 * Reservation table acts as a bridge table for Fight and Passenger
 <br /><br />
-## Trigger Demo
+#### Trigger Demo
 1) ![image](https://user-images.githubusercontent.com/52587103/60775991-9ee94f00-a0f6-11e9-8559-b63b9c9042c9.png)
 
 2) ![image](https://user-images.githubusercontent.com/52587103/60775992-a3ae0300-a0f6-11e9-958a-6743d5fd43d8.png)
@@ -20,7 +20,7 @@ Concept of an airlines reservation system where the user and the admin can perfo
 
 <br /><br />
 
-## User Procedure #1– Registering a Passenger(refer to '4_passenger_procedures.sql' for code)
+#### User Procedure #1– Registering a Passenger(refer to '4_passenger_procedures.sql' for code)
 
 
 1) ![image](https://user-images.githubusercontent.com/52587103/60776001-af99c500-a0f6-11e9-8150-4107c8afabf6.png)
@@ -32,7 +32,7 @@ Concept of an airlines reservation system where the user and the admin can perfo
 
 <br /><br />
 
-# User Procedure #2– Searching for Flights(refer to '4_passenger_procedures.sql' for code)
+#### User Procedure #2– Searching for Flights(refer to '4_passenger_procedures.sql' for code)
 
 ![image](https://user-images.githubusercontent.com/52587103/75728698-a9281100-5cb6-11ea-9672-435c0f291861.png)
 
@@ -40,7 +40,7 @@ Concept of an airlines reservation system where the user and the admin can perfo
 <br /><br />
 
 
-## Admin procedure #3– Display ALL reservations for a particular flight using FLIGHT_ID (refer to '5_Admin_Procedures.sql' file for code)
+#### Admin procedure #3– Display ALL reservations for a particular flight using FLIGHT_ID (refer to '5_Admin_Procedures.sql' file for code)
 
 
 ![image](https://user-images.githubusercontent.com/52587103/60776011-b7596980-a0f6-11e9-98d9-7c928a811ccc.png)
