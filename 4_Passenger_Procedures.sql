@@ -23,6 +23,7 @@ END;
 
 
 Set serveroutput on
+
 create or replace procedure P2_Search_flights
 (P_origin IN flight.origin%TYPE,
 P_dest IN flight.destination%TYPE,
@@ -37,7 +38,7 @@ IS
     v_flight_date flight.flight_date%TYPE;
     v_seats flight.remaining_seats%TYPE;
     v_fare  flight.fare%type;
-    
+
 -- declaring the cursor--
 cursor C1 is 
     select * From flight 
@@ -53,13 +54,13 @@ LOOP
     --looping the cursor into the variables and printing the outcome-- 
     FETCH c1 INTO v_flightnum, v_airlines, v_origin, v_destination,  v_flight_date,v_seats,  v_fare;
     exit when c1%NOTFOUND ;
-    dbms_output.put_line( 'Flight Number: ' || v_flightnum ||' |  Airlines: ' ||v_airlines 
-                         || '| '|| v_origin || ' to ' || v_destination || ' | ' || v_flight_date ||
-                         ' |  Seats Remaining: '|| v_seats || ' | Price: '|| v_fare);
+    dbms_output.put_line( 'Flight Number: ' || v_flightnum ||'    | Airlines: ' ||v_airlines ||  '    | ' || v_flight_date || '    | Seats Remaining: '|| v_seats || '    | Price: '|| v_fare);
 END LOOP;    
 close c1;
 
 END;
+
+
 /
 
 
