@@ -20,9 +20,9 @@ Concept of an airlines reservation system where the user and the admin can perfo
 
 <br /><br />
 ### Passenger Procedures -   (refer to '4_passenger_procedures.sql')
+</br></br>
 
-#### User Procedure #1  - 
-##### Registering a Passenger 
+#### User Procedure #1  -  Registering a Passenger  
 ###### Gives user their Passenger_ID upon registration
 
 
@@ -33,8 +33,8 @@ Concept of an airlines reservation system where the user and the admin can perfo
 
 <br /><br />
 
-#### User Procedure #2  -  
-##### Searching for Flights 
+#### User Procedure #2  -  Searching for Flights 
+##### (Origin, Destination, flight date) as parameters
 
 ![image](https://user-images.githubusercontent.com/52587103/75728698-a9281100-5cb6-11ea-9672-435c0f291861.png)
 
