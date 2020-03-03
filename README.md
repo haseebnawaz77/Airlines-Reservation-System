@@ -9,12 +9,13 @@ Concept of an airlines reservation system where the user and the admin can perfo
 
 <br /><br />
 #### Trigger Demo
+###### Remaining_seats = 82
 1) ![image](https://user-images.githubusercontent.com/52587103/60775991-9ee94f00-a0f6-11e9-8559-b63b9c9042c9.png)
 
 2) ![image](https://user-images.githubusercontent.com/52587103/60775992-a3ae0300-a0f6-11e9-958a-6743d5fd43d8.png)
 
    ![image](https://user-images.githubusercontent.com/52587103/60775994-a6a8f380-a0f6-11e9-8fd0-2794e94db96c.png)
-
+###### Updated Remaining_seats = 78
 3) ![image](https://user-images.githubusercontent.com/52587103/60775999-ac9ed480-a0f6-11e9-809e-c9814aa838a4.png)
 
 
