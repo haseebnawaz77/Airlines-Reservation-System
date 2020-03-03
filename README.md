@@ -24,11 +24,9 @@ Concept of an airlines reservation system where the user and the admin can perfo
 ###### Registering a Passenger 
 
 
-1) ![image](https://user-images.githubusercontent.com/52587103/60776001-af99c500-a0f6-11e9-8150-4107c8afabf6.png)
+1) ![image](https://user-images.githubusercontent.com/52587103/60776006-b1fc1f00-a0f6-11e9-8640-0a6f887e44d9.png)
 
-2) ![image](https://user-images.githubusercontent.com/52587103/60776006-b1fc1f00-a0f6-11e9-8640-0a6f887e44d9.png)
-
-3) ![image](https://user-images.githubusercontent.com/52587103/60776007-b45e7900-a0f6-11e9-98ce-f666f28a20c6.png)
+2) ![image](https://user-images.githubusercontent.com/52587103/60776007-b45e7900-a0f6-11e9-98ce-f666f28a20c6.png)
 
 
 <br /><br />
@@ -43,10 +41,8 @@ Concept of an airlines reservation system where the user and the admin can perfo
 
 
 #### User Procedure #3  -  (refer to '4_passenger_procedures.sql')
-###### Reserving X amount of seats
-* 1st parameter = flight_num
-* 2nd parameter = passanger_ID , made during registration
-* 3rd parameter = number of seats being reserved
+###### Reserving X amount of seats(flight Number, Passenger ID, number of seats being reserved)
+* Passenger_ID was given to the user upon registration
 
 ![image](https://user-images.githubusercontent.com/52587103/75730688-95cb7480-5cbb-11ea-98c8-af8eeef02018.png)
 
