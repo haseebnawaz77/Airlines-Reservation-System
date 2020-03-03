@@ -44,7 +44,7 @@ Concept of an airlines reservation system where the user and the admin can perfo
 
 #### User Procedure #3  -  Reserving X amount of seats
 ###### (flight Number, Passenger ID, number of seats being reserved) as parameters
-* Passenger_ID was given to the user upon registration
+
 
 ![image](https://user-images.githubusercontent.com/52587103/75730688-95cb7480-5cbb-11ea-98c8-af8eeef02018.png)
 
@@ -52,7 +52,7 @@ Concept of an airlines reservation system where the user and the admin can perfo
 <br /><br />
 
 
-## Admin procedure #3 - (refer to '5_Admin_Procedures.sql')
+### Admin procedure #3 - (refer to '5_Admin_Procedures.sql')
 ###### Displays ALL reservations for a particular flight using (FLIGHT_ID) as the parameter
 
 
