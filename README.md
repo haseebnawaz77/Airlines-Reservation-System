@@ -36,7 +36,7 @@ Concept of an airlines reservation system where the user and the admin can perfo
 #### User Procedure #2  -  Searching for Flights 
 ###### (Origin, Destination, flight date) as parameters
 
-![image](https://user-images.githubusercontent.com/52587103/75728698-a9281100-5cb6-11ea-9672-435c0f291861.png)
+![image](https://user-images.githubusercontent.com/52587103/75734371-c87a6a80-5cc5-11ea-9df7-923563d2713c.png)
 
 
 <br /><br />
@@ -58,7 +58,8 @@ Concept of an airlines reservation system where the user and the admin can perfo
 ###### The highlighted parts show Alex's reservation (passenger_ID = 176) that we created earlier
 
 
-![image](https://user-images.githubusercontent.com/52587103/75732439-7c78f700-5cc0-11ea-8d1e-1f03c943043b.png)
+![image](https://user-images.githubusercontent.com/52587103/75734375-cca68800-5cc5-11ea-868f-55fbec9e5d32.png)
+
 
 
 
