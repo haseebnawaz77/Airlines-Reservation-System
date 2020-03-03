@@ -34,7 +34,7 @@ Concept of an airlines reservation system where the user and the admin can perfo
 
 #### User Procedure #2– Searching for Flights(refer to '4_passenger_procedures.sql' for code)
 
-![image](https://user-images.githubusercontent.com/52587103/75728698-a9281100-5cb6-11ea-9672-435c0f291861.png width=100)
+![image](https://user-images.githubusercontent.com/52587103/75728698-a9281100-5cb6-11ea-9672-435c0f291861.png)
 
 
 <br /><br />
