@@ -40,7 +40,11 @@ Concept of an airlines reservation system where the user and the admin can perfo
 <br /><br />
 
 
-#### Admin procedure #3– Display ALL reservations for a particular flight using FLIGHT_ID (refer to '5_Admin_Procedures.sql' file for code)
+###### Admin procedure #3– Display ALL reservations for a particular flight using FLIGHT_ID (refer to '5_Admin_Procedures.sql' file for code)
 
 
 ![image](https://user-images.githubusercontent.com/52587103/60776011-b7596980-a0f6-11e9-98d9-7c928a811ccc.png)
+
+
+
+
