@@ -44,9 +44,9 @@ Concept of an airlines reservation system where the user and the admin can perfo
 
 #### User Procedure #3  -  (refer to '4_passenger_procedures.sql')
 ###### Reserving X amount of seats
-* The 1st parameter takes the flight_num
-* The 2nd parameter takes the passanger_ID made during registration
-* The 3rd parameter takes the number of seats being reserved
+* 1st parameter = flight_num
+* 2nd parameter = passanger_ID , made during registration
+* 3rd parameter = number of seats being reserved
 
 ![image](https://user-images.githubusercontent.com/52587103/75730688-95cb7480-5cbb-11ea-98c8-af8eeef02018.png)
 
