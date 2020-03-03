@@ -53,10 +53,13 @@ Concept of an airlines reservation system where the user and the admin can perfo
 
 
 ### Admin procedure #3 - (refer to '5_Admin_Procedures.sql')
-###### Displays ALL reservations for a particular flight using (FLIGHT_ID) as the parameter
+###### Displays ALL reservations for a particular flight from the Admin's pov, using (FLIGHT_ID) as the parameter
+</br>
+###### The highlighted parts show Alex's reservation that we created earlier
 
 
-![image](https://user-images.githubusercontent.com/52587103/60776011-b7596980-a0f6-11e9-98d9-7c928a811ccc.png)
+![image](https://user-images.githubusercontent.com/52587103/75732439-7c78f700-5cc0-11ea-8d1e-1f03c943043b.png)
+
 
 
 
