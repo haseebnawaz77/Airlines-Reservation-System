@@ -1,12 +1,12 @@
 # Airlines-Reservation- System(SQL - PL/SQL)
 Concept of an airlines reservation system where the user and the admin can perform real world fucntions
 
-* The project consists of 4 tables(Flight,Reservation, Passenger,Payment) with 9 PL/SQL procedures 2 sequences and 1 Trigger. 
+* The project consists of 4 tables(Flight,Reservation,Passenger, Payment) with 9 PL/SQL procedures 2 sequences and 1 Trigger. 
 
-* Trigger subtracts the NEW number of passengers registered(Reservation table) from the Remaining_Seats(flight table). 
+* Trigger subtracts the NEW number of passengers reserved(Reservation table) from the Remaining_Seats(flight table). 
 * If the the passenger registers for more than the number of avaialable seats then it give an error(check constraint on Remaining_seats to remain > 0)
 * Sequences to auto generate Reservation_ID and Passenger_ID for the Passenger
-* Reservation table acts as a bridge table for Fight and Passenger
+
 <br /><br />
 #### Trigger Demo
 1) ![image](https://user-images.githubusercontent.com/52587103/60775991-9ee94f00-a0f6-11e9-8559-b63b9c9042c9.png)
